@@ -1,0 +1,37 @@
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.7s;
+    font-family: 'Fasthand', cursive;
+}
+
+li:hover {
+    color: #b30000;
+    
+}
+
+#logo {
+    width: 160px;
+    height: auto;
+}
+
